@@ -12,7 +12,7 @@ Criar uma IA institucional de código aberto que compreenda a produção acadêm
 1. Coleta de teses/dissertações
    - Utilização de APIs do Repositório Institucional da UFF
    - Extração de metadados e textos completos
-   - Bibliotecas R: `rvest`
+   - Bibliotecas R: `rvest`, `dplyr`, `purrr`, `stringr`
    
 2. Preprocessamento textual
    - Limpeza de dados
@@ -23,5 +23,27 @@ Criar uma IA institucional de código aberto que compreenda a produção acadêm
 3. Treinamento de modelos de linguagem
 4. Avaliação e interfaces
 
+## Estrutura do repositório
+uff-ia/ # em contrução
+├── README.md
+├── LICENSE
+├── .gitignore
+├── data/ # em contrução
+│   ├── raw/
+│   ├── processed/
+├── scripts/
+│   ├── R/
+│   │   ├── 01_Coleta.R
+│   │   └── 02_modelo_texto.R 
+│   ├── python/
+│   │   ├── 00_scraper_riuff.py
+│   │   └── utils.py
+├── notebooks/
+│   ├── R/
+│   └── python/
+├── requirements.txt
+├── renv.lock       
+└── environment.yml 
+
 ## Licença
-A definir (Provavelmente GPL-3)# uff-ia
+Este projeto está licenciado sob os termos da [GNU General Public License v3.0](LICENSE).
