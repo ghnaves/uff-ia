@@ -12,7 +12,7 @@ Criar uma IA institucional de código aberto que compreenda a produção acadêm
 1. Coleta de teses/dissertações
    - Utilização de APIs do Repositório Institucional da UFF
    - Extração de metadados e textos completos
-   - Bibliotecas R: `rvest`
+   - Bibliotecas R: `rvest`, `dplyr`, `purrr`, `stringr`
    
 2. Preprocessamento textual
    - Limpeza de dados
@@ -24,4 +24,4 @@ Criar uma IA institucional de código aberto que compreenda a produção acadêm
 4. Avaliação e interfaces
 
 ## Licença
-A definir (Provavelmente GPL-3)# uff-ia
+A definir (Provavelmente GPL-3)
