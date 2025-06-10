@@ -45,5 +45,11 @@ uff-ia/ # em contrução
 ├── renv.lock       
 └── environment.yml 
 
+## Dados
+
+Os dados não são incluídos diretamente no repositório. Apenas um arquivo de exemplo está no repositório (`dissertacoes_31003010095P5.csv`).
+
+Para gerar os arquivos localmente, execute `scripts/R/01_Coleta.R` para coletar os dados do Repositório Institucional da UFF, alterando o endereço do repositório de interesse.
+
 ## Licença
 Este projeto está licenciado sob os termos da [GNU General Public License v3.0](LICENSE).
