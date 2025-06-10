@@ -2,9 +2,9 @@
 .Rhistory
 .RData
 .Ruserdata
+# Ignora tudo na pasta data/raw/
 data/raw/*
+# Exceto
 !data/raw/README.md
 !data/raw/dissertacoes_31003010095P5.csv
 !data/raw/dissertacoes_31003010095P5.rds
-*.csv
-*.rds
