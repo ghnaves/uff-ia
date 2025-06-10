@@ -24,26 +24,30 @@ Criar uma IA institucional de código aberto.
 4. Avaliação e interfaces
 
 ## Estrutura do repositório
-uff-ia/ # em contrução
-├── README.md
-├── LICENSE
-├── .gitignore
-├── data/ # em contrução
-│   ├── raw/
-│   ├── processed/
+Em construção. A estrutura do repositório está projetada para ser organizada da seguinte forma:
+
+```plaintext
+uff-ia/
+├── README.md           # Apresentação do projeto
+├── LICENSE             # GPL-3, conforme seu plano
+├── .gitignore          # Ignorar cache, `.Rhistory`, data/raw, data, etc.
+├── data/
+│   ├── raw/            # Dados brutos (não versionar)
+│   ├── processed/      # Dados limpos ou prontos para modelagem
 ├── scripts/
 │   ├── R/
-│   │   ├── 01_Coleta.R
-│   │   └── 02_modelo_texto.R 
+│   │   ├── 01_Coleta.R         # Scraping, pré-processamento
+│   │   └── 02_modelo_texto.R   # NLP, embeddings, etc.
 │   ├── python/
 │   │   ├── 00_scraper_riuff.py
 │   │   └── utils.py
 ├── notebooks/
-│   ├── R/
-│   └── python/
-├── requirements.txt
-├── renv.lock       
-└── environment.yml 
+│   ├── R/              # Explorações, protótipos em R
+│   └── python/         # Jupyter ou Quarto
+├── requirements.txt    # dependências Python
+├── renv.lock           # dependências R
+└── environment.yml     # compatibilidade (opcional para conda/mamba)
+```
 
 ## Dados
 

@@ -113,4 +113,6 @@ df_dissertacoes <- map_dfr(urls_paginas, get_detalhes_listagem)
 
 # 4. Exporta os dados das dissertações para um arquivo CSV
 readr::write_csv(df_dissertacoes, "data/raw/dissertacoes_31003010095P5.csv")
+saveRDS(df_dissertacoes, file = "data/raw/dissertacoes_31003010095P5.rds")
+
 

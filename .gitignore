@@ -2,5 +2,9 @@
 .Rhistory
 .RData
 .Ruserdata
+data/raw/*
+!data/raw/README.md
+!data/raw/dissertacoes_31003010095P5.csv
+!data/raw/dissertacoes_31003010095P5.rds
 *.csv
 *.rds
