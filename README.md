@@ -3,7 +3,7 @@
 Projeto para o desenvolvimento de um modelo de linguagem treinado a partir de teses e dissertações da UFF, com aplicações voltadas ao ensino, pesquisa e gestão universitária.
 
 ## Objetivo
-Criar uma IA institucional de código aberto que compreenda a produção acadêmica da universidade e apoie tarefas como resumo, busca semântica, suporte à escrita e análise de textos.
+Criar uma IA institucional de código aberto.
 
 ## Linguagem
 - R (tidyverse, text2vec, quanteda, keras)
